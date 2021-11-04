@@ -133,6 +133,7 @@ nav a {
 
 .row-1 .left {
     width: 70%;
+    float: left;
 }
 
 .row-1 .left img {
@@ -141,16 +142,19 @@ nav a {
 }
 
 .row-2 .left {
-    width: 30%;
+    width: 40%;
+    float: left;
 }
 
 .row-1 .right {
     width: 30%;
+    float: left;
     padding-top: 20px;
 }
 
 .row-2 .right {
-    width: 70%;
+    width: 60%;
+    float: left;
     padding-top: 20px;
 }
 
