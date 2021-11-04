@@ -10,7 +10,8 @@ body {
 
 .container {
     width: 1000px;
-    margin: 50px auto;
+    margin: 0px auto;
+    margin-bottom: 50px;
     /* background-color: violet;
     height: 200px; */
 }
