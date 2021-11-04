@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+    /* background-color: violet;
+    height: 200px; */
+}
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+main {
+    margin: 100px 0;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+header {
+    height: 500px;
+    background: url(../img/jumbo.png) no-repeat 50% 50%;
+    background-size: cover;
+    font-size: 15px;
+    position: relative;
+}
+
+
+header .row {
+    height: 50px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 20%;
+}
+
+nav {
+    width: 60%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.button {
+    width: 20%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.button h3{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.jumbotron h1{
+    font-size: 40px;
+}
+
+.jumbotron p{
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.button-jumbotron {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.white span {
+    transform: rotate(90deg);
+    display: inline-block;
+    font-size: small;
+}
+
+.black {
+    background-color: #22272a;
+    color: white;
+}
+
+
+.row-1 .left {
+    width: 70%;
+}
+
+.row-1 .left img {
+    height: 300px;
+    padding-left: 100px;
+}
+
+.row-2 .left {
+    width: 30%;
+}
+
+.row-1 .right {
+    width: 30%;
+    padding-top: 20px;
+}
+
+.row-2 .right {
+    width: 70%;
+    padding-top: 20px;
+}
+
+.row-1 .right h2 {
+    font-size: 36px;
+}
+
+.row-1 .right p {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 250px;
+}
+
+.row-2 .right img {
+    height: 300px;
+    padding-left: 100px;
+}
