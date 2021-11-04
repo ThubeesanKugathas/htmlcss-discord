@@ -12,10 +12,7 @@ body {
     width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
-    /* background-color: violet;
-    height: 200px; */
 }
-
 
 .row::after{
     content: "";
@@ -31,8 +28,12 @@ main {
     margin: 100px 0;
 }
 
+h2 {
+    font-size: 32px;
+}
 
-/* ---------------------------------------------------------------------- */
+
+/* --------------------------HEADER----------------------------- */
 
 header {
     height: 500px;
@@ -41,7 +42,6 @@ header {
     font-size: 15px;
     position: relative;
 }
-
 
 header .row {
     height: 50px;
@@ -130,6 +130,8 @@ nav a {
     color: white;
 }
 
+/* -----------------MAIN---------------------- */
+
 .row-1 {
     margin: 200px 0;
 }
@@ -159,15 +161,6 @@ nav a {
     padding-top: 20px;
 }
 
-.row-2 .right {
-    width: 60%;
-    float: left;
-}
-
-h2 {
-    font-size: 32px;
-}
-
 .row-1 .right p {
     margin-top: 20px;
     font-size: 15px;
@@ -175,12 +168,15 @@ h2 {
     line-height: 20px;
 }
 
+.row-2 .right {
+    width: 60%;
+    float: left;
+}
+
 .row-2 .left {
     padding-top: 20px;
     padding-left: 100px;
 }
-
-
 
 .row-2 .left p {
     margin-top: 20px;
@@ -257,6 +253,8 @@ h2 {
     display: inline-block;
     font-size: small;
 }
+
+/* --------------------FOOTER------------------------ */
 
 footer {
     color: white;
